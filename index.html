@@ -1,12 +1,70 @@
 <html>
-<head></head>
-<body>
-<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
-<df-messenger
+<head><link rel="stylesheet" type="text/css" href="css.css">
+<title>Student Portal</title>
+</head>
+<body bgcolor="black">
+
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+
+  <df-messenger
   intent="WELCOME"
   chat-title="BroadbandInternetServiceBot"
   agent-id="811e7e34-b365-41d0-a53d-ab27f259e71e"
   language-code="en"
 ></df-messenger>
-</body>
+
+  
+<form method="post" action="validate.php">
+
+<div class="arrange-horizontally">
+<div class="events" >
+<fieldset >
+<h1>Test Event</h1>
+<p>This is testing.This is testing.This is testing.This is testing.This is testing.This is testing.This is testing.This is testing.</p>
+<hr>
+
+<h1>Test Event</h1>
+<p>This is testing.This is testing.This is testing.This is testing.This is testing.This is testing.This is testing.This is testing.</p>
+<hr>
+
+<h1>Test Event</h1>
+<p>This is testing.This is testing.This is testing.This is testing.This is testing.This is testing.This is testing.This is testing.</p>
+<hr>
+
+<h1>Test Event</h1>
+<p>This is testing.This is testing.This is testing.This is testing.This is testing.This is testing.This is testing.This is testing.</p>
+<hr>
+
+<h1>Test Event</h1>
+<p>This is testing.This is testing.This is testing.This is testing.This is testing.This is testing.This is testing.This is testing.</p>
+<hr>
+
+</fieldset >
+</div>	
+
+
+<div class="grid-container" align="left" style="max-height:20%"> 
+<fieldset >
+ <center><img src="log.png"  width="50%" height="30%"></center>
+ <center><big>Log in</big></center><br>
+     
+    <label for="Email">Email</label>
+    <input type="text" name="email"  placeholder="Your Email.." required>  
+    <label for="password">Password</label>
+    <input type="password" name="password" placeholder="Your password.." required>
+
+    
+    <a href="#">Forgot password</a> 
+    ------<a href="reg.php"> register</a>
+
+<br>
+<center><button type="submit" class="button" style="align:middle" ><span>log in </span></button></center>
+  </fieldset>
+ 
+   </div>
+  </div>
+   </form>
+
+  
+  </body>
 </html>
