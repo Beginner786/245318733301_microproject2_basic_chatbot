@@ -1,0 +1,12 @@
+<html>
+<head></head>
+<body>
+<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="BroadbandInternetServiceBot"
+  agent-id="811e7e34-b365-41d0-a53d-ab27f259e71e"
+  language-code="en"
+></df-messenger>
+</body>
+</html>
